@@ -1,4 +1,4 @@
-package com.company.Oop;
+package com.company.Oop1;
 
 class Student01 {
     public static void main(String[] args) {

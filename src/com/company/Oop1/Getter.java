@@ -1,5 +1,4 @@
-package com.company.Oop;
-import java.util.*;
+package com.company.Oop1;
 
 public class Getter {
         public static void main(String[] args) {

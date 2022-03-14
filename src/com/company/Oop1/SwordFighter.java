@@ -1,4 +1,4 @@
-package com.company.Oop;
+package com.company.Oop1;
 
 public interface SwordFighter {
 
