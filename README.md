@@ -1,4 +1,4 @@
-# Bootamp
+# Bootcamp
 ---Welcome To The Java Programming Bootcamp---
 
 -->Basics of Java & Conditionals
