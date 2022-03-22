@@ -23,10 +23,10 @@ public class Fruits {
     }
     public static void printFruitCount(List<String> fruits){
 
-        // 1.1== >Group by a List and display the total count of it
+        // Group by a List and display the total count of it
         Map<String,Long> result = fruits.stream().sorted()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-        System.out.println("RESULT : "+result);
+        System.out.println(result);
 
 
 
