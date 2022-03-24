@@ -21,7 +21,7 @@ public class WordCount {
                     "I will count to three",
                     "Little by little however my difficulties began to disappear");
 
-            Map<String, Long> wordCounts = sentences.stream().flatMap(s -> Stream.of(s.toLowerCase().split(" ")))
+            Map<String, Long> wordCounts = sentences.stream().flatMap(word -> Stream.of(word.toLowerCase().split(" ")))
                     .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
             System.out.println(wordCounts);

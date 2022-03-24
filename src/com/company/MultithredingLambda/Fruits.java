@@ -24,7 +24,7 @@ public class Fruits {
     public static void printFruitCount(List<String> fruits){
 
         // Group by a List and display the total count of it
-        Map<String,Long> result = fruits.stream().sorted()
+        Map<String,Long> result = fruits.stream()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         System.out.println(result);
 
